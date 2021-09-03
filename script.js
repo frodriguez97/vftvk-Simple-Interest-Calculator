@@ -1,3 +1,6 @@
+/**
+ * Computes the values that they're in the inputs of the Simple Interest Calculator
+ */
 function compute()
 {
     var principal = document.getElementById("principal").value;
@@ -15,8 +18,11 @@ function compute()
                                                 You will receive an amount of <span class="highlighted">${interest}</span>, <br/>
                                                 in the year <span class="highlighted">${year}</span> <br/>`;
     }
-}    
+}
 
+/**
+ * Updates the rate_value as the user modifies the rate value element
+ */
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
